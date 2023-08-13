@@ -1,0 +1,16 @@
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class AccoutController {
+	
+	
+	@GetMapping(path="getDetails")
+	public void getDetails() {
+		
+		System.out.println("kranthi");
+	}
+
+}
